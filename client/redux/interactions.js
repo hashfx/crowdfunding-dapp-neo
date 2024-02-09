@@ -6,7 +6,7 @@ import { groupContributionByProject, groupContributors, projectDataFormatter, wi
 import { ethers } from 'ethers';
 
 const provider = new ethers.providers.JsonRpcProvider('https://rpc-mumbai.maticvigil.com/');
-const crowdFundingContractAddress = "0x48300ed5841fb905e39d876dAe583753C037b326";
+const crowdFundingContractAddress = "0x5cc80C4d3cBF16F904C92E83a9115bd3B4f67B2c";
 
 //Load web3 
 export const loadWeb3 = async (dispatch) => {
