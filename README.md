@@ -3,6 +3,8 @@ A decentralized crowdfunding platform enabling users to initiate fundraising cam
 
 
 ### Run DApp :
+- run ```sh setup.sh``` to setup automatically on LINUX
+- run ```setup.bat``` to setup automatically on WINDOWS
 - install node_modules in root directory: ```npm install```
 - run hardhat node locally: ```npx hardhat node```
 - compile smart contracts: ```npx hardhat compile```
