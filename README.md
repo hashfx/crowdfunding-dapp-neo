@@ -9,7 +9,7 @@ A decentralized crowdfunding platform enabling users to initiate fundraising cam
 - run hardhat node locally: ```npx hardhat node```
 - compile smart contracts: ```npx hardhat compile```
 - run test cases```npx hardhat test```
-- Deploy contract in Polygon Mumbai: ```npx hardhat run scripts/deploy.js --network mumbai```
+- Deploy contract on Polygon Amoy: ```npx hardhat run scripts/deploy.js --network amoy```
 - note **contract address** and update it to clients/redux/interactions.js **crowdFundingContractAddress** variable
 - if using GitPod: ```export NODE_OPTIONS="--openssl-legacy-provider"```
 - run frontend:
