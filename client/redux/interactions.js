@@ -5,12 +5,12 @@ import Project from '../artifacts/contracts/Project.sol/Project.json'
 import { groupContributionByProject, groupContributors, projectDataFormatter, withdrawRequestDataFormatter } from "../helper/helper";
 import { ethers } from 'ethers';
 
-const provider = new ethers.providers.JsonRpcProvider('https://rpc-mumbai.maticvigil.com/');
-const crowdFundingContractAddress = "0x5cc80C4d3cBF16F904C92E83a9115bd3B4f67B2c";
+const provider = new ethers.providers.JsonRpcProvider('https://8545-hashfx-crosschaincrowdf-r3y8jggydzq.ws-us114.gitpod.io');
+const crowdFundingContractAddress = "0x5e29B7dB50F23F39c412EBC5975611c800BDf9fb";
 
 //Load web3 
 export const loadWeb3 = async (dispatch) => {
-  const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
+  const web3 = new Web3(Web3.givenProvider || "https://8545-hashfx-crosschaincrowdf-r3y8jggydzq.ws-us114.gitpod.io");
   dispatch(actions.web3Loaded(web3));
   return web3;
 };
